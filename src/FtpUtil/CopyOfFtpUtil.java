@@ -28,7 +28,7 @@ import org.apache.commons.net.ftp.FTPFile;
  *
  * @author  __USER__
  */
-public class FtpUtil extends javax.swing.JFrame {
+public class CopyOfFtpUtil extends javax.swing.JFrame {
 
 	//private static String server = "218.241.135.34";
 	private static String server = "192.168.253.137";
@@ -40,7 +40,7 @@ public class FtpUtil extends javax.swing.JFrame {
 	
 
 	/** Creates new form FtpUtil */
-	public FtpUtil() {
+	public CopyOfFtpUtil() {
 		initComponents();
 	}
 
@@ -715,7 +715,7 @@ public class FtpUtil extends javax.swing.JFrame {
 	public static void main(String args[]) {
 		java.awt.EventQueue.invokeLater(new Runnable() {
 			public void run() {
-				new FtpUtil().setVisible(true);
+				new CopyOfFtpUtil().setVisible(true);
 			}
 		});
 	}
